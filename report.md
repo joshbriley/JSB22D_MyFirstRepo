@@ -132,6 +132,8 @@ ax.plot(x,y+.5, 'g--', label='2')
 ax.set_xlabel("Sopas")
 ax.set_ylabel("Pericon")
 ax.legend()
+![basicPlot](https://github.com/user-attachments/assets/7a440697-fec4-4be8-bba2-c220b009bcaf)
+
 plt.show()
 
 #%% ------------ plot scatter -----------
@@ -143,6 +145,8 @@ ax.scatter(x,y-.8, s=np.linspace(0,100,len(x)), label='size')                 # 
 ax.set_title("Scatter")
 ax.legend()
 plt.show()
+![scatterPlot](https://github.com/user-attachments/assets/4880967a-293a-4882-ac42-8465b8a97f5a)
+
 ```
 
 ## Additional Comments or Notes
