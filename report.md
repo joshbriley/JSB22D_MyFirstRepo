@@ -111,19 +111,19 @@ print(squareme(A,row_int))
 ```
 
 #### Question 5
-[Insert a description for the second answer here]
+Import the necessary libraries and create global data. 
 
 ```python
 import matplotlib.pyplot as plt
 import matplotlib
-import matplotlib.animation as animation
-import numpy as np
 
-#%%%------------ data -----------
 n = 100
 x = np.linspace(0,2*np.pi,n)
 y = np.sin(x)
-
+```
+---
+First example and graph from 1_Basic.py:
+```python
 #%% ------------ plot line -----------
 fig, ax = plt.subplots(1,1,figsize=(10,10))
 ax.set_title('Basic Plot')
@@ -132,10 +132,15 @@ ax.plot(x,y+.5, 'g--', label='2')
 ax.set_xlabel("Sopas")
 ax.set_ylabel("Pericon")
 ax.legend()
-![basicPlot](https://github.com/user-attachments/assets/7a440697-fec4-4be8-bba2-c220b009bcaf)
+
 
 plt.show()
+```
+<img src="https://github.com/user-attachments/assets/7a440697-fec4-4be8-bba2-c220b009bcaf" alt="basicPlot" width="300"/>
 
+---
+Second example and graph from 1_Basic.py:
+```python
 #%% ------------ plot scatter -----------
 fig, ax = plt.subplots(1,1,figsize=(10,10))
 ax.scatter(x,y, label='simplest')
@@ -145,9 +150,10 @@ ax.scatter(x,y-.8, s=np.linspace(0,100,len(x)), label='size')                 # 
 ax.set_title("Scatter")
 ax.legend()
 plt.show()
-![scatterPlot](https://github.com/user-attachments/assets/4880967a-293a-4882-ac42-8465b8a97f5a)
-
 ```
+<img src="https://github.com/user-attachments/assets/4880967a-293a-4882-ac42-8465b8a97f5a" alt="scatterPlot" width="300"/>
+
+
 
 ## Additional Comments or Notes
 
